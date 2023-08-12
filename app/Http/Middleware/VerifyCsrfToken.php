@@ -13,5 +13,8 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
+        // 'admin/*',  // exclude all URLs wit admin/ prefix
+        // 'user/add' // exclude exact URL
     ];
 }
+

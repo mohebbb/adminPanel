@@ -22,7 +22,7 @@ return [
      * Possible values: horizontal, horizontal_dark, horizontal_overlap, vertical,
      * vertical_dark, vertical_transparent (legacy theme), right_vertical, right_vertical_dark, right_vertical_transparent
      */
-    'layout' => 'horizontal_overlap',
+    'layout' => 'right_vertical_transparent',
 
     /**
      * Pick a login page layout.
@@ -41,6 +41,8 @@ return [
     'styles' => [
         base_path('vendor/backpack/theme-tabler/resources/assets/css/color-adjustments.css'),
         base_path('vendor/backpack/theme-tabler/resources/assets/css/colors.css'),
+        base_path('resources/css/admin.css'),
+
     ],
 
     /**
@@ -51,8 +53,7 @@ return [
      */
     'options' => [
         /**
-        /**
-         * The available color modes.
+        * The available color modes.
          */
         'colorModes' => [
             'system' => 'la-desktop',
