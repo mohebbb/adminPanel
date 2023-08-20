@@ -90,17 +90,17 @@ class TagCrudController extends CrudController
         // CRUD::setFromDb(); // set fields from db columns.
 
 
-        $this->crud->addFields([
+        CRUD::addFields([
             [   // Text
                 'name'  => 'name',
                 'label' => "عنوان",
                 'type'  => 'text',
     
                 // OPTIONAL
-                'prefix'     => 'خداحافظ',
-                'suffix'     => 'سلام',
+                // 'prefix'     => 'خداحافظ',
+                // 'suffix'     => 'سلام',
                 //'default'    => 'some value', // default value
-                'hint'       => 'Some hint text', // helpful text, show up after input
+                // 'hint'       => 'Some hint text', // helpful text, show up after input
                 //'attributes' => [
                 //'placeholder' => 'Some text when empty',
                 //'class' => 'form-control some-class',

@@ -71,7 +71,7 @@ return [
          * When false, the theme will only use the "defaultColorMode" set above.
          * In case "defaultColorMode" is null, system is the default.
          */
-        'showColorModeSwitcher' => true,
+        'showColorModeSwitcher' => false,
 
         /**
          * Fix the top-header component (present in "vertical_transparent") and the menu when the layout type is set as "horizontal".
@@ -150,7 +150,7 @@ return [
          * Use this to pass classes to the table displayed in List Operation
          * It defaults to: "table table-striped table-hover nowrap rounded card-table table-vcenter card-table shadow-xs border-xs"
          */
-        'table' => null,
+        'table' => "table table-hover rounded",
 
         /**
          * Use this to pass classes to the table wrapper component displayed in List Operation

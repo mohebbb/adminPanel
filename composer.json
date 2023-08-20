@@ -2,13 +2,15 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.1",
         "backpack/crud": "^6.1",
-        "backpack/editable-columns": "*",
-        "backpack/pro": "*",
+        "backpack/permissionmanager": "^7.0",
         "backpack/theme-tabler": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
@@ -52,7 +54,9 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
-        "post-install-cmd": ["php artisan storage:link"]
+        "post-install-cmd": [
+            "php artisan storage:link"
+        ]
     },
     "extra": {
         "laravel": {
