@@ -3,7 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
-use Backpack\PermissionManager\app\Http\Requests\UserStoreCrudRequest as StoreRequest;
+// use Backpack\PermissionManager\app\Http\Requests\UserStoreCrudRequest as StoreRequest; // for the package itself
+use App\Http\Requests\UserStoreCrudRequest as StoreRequest; // customize validate
 use Backpack\PermissionManager\app\Http\Requests\UserUpdateCrudRequest as UpdateRequest;
 use Illuminate\Support\Facades\Hash;
 
